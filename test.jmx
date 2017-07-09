@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan versio="1.2" properties="2.8" jmeter="2.13 r1665067">
+<hash tree>
+<TestPlan guiclass="TestPlanGui" testclass="TestPlan" testame="TestPlan"
+enabled="true">
+<stringProp name="TestPlan.comments"></stringProp>
+<boolProp name="TestPlan.functional_mode">false</boolProp>
+<boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+<elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclasss="Arguments" testname="Variables pre-defines" enabled="true">
+<collectionProp name="Arguments.arguments">
+<elementProp name="PETCLINIC_HOST" elementType="Argument">
+<stringProp name="Argument.name">PETCLINIC_HOST</stringProp>
+<stringProp name="Argument.value">localhost</stringProp>
+<stringProp name="Argument.metadata">=</stringProp>
+</elementProp>
+
